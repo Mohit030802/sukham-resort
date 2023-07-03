@@ -6,7 +6,7 @@ const Finder = ({ jobs: { salary, title, jobType, description, time } }) => {
   return (
     <>
     <div >
-      <div className="flex justify-center flex-wrap items-center py-10">
+      <div className="flex justify-center flex-wrap items-center py-10 ">
         <div className=" singleJob w-[250px] p-[20px] bg-white rounded-md shadow-lg shadow-gray-400">
           <span className="flex justify-between items-center gap-4">
             <h1 className="text-lg font-semibold text-black ">{title}</h1>

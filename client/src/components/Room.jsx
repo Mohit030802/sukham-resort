@@ -3,7 +3,7 @@ import room from "../assets/hotelroom.webp";
 
 const Room = () => {
   return (
-    <div className="flex flex-col md:flex-row sm:p-10 p-2 items-center m-auto justify-center">
+    <div className="flex flex-col md:flex-row sm:p-10 p-2 items-center m-auto justify-center bg-gradient-to-r from-[#DCD6F7] via-[#BBE1FA]  to-[#BBDED6]" id="Rooms">
       <div className=" flex h-80 sm:w- rounded-md">
         <img className="rounded-md shadow-md shadow-slate-500" src={room} alt="" />
       </div>
@@ -23,7 +23,7 @@ const Room = () => {
           corrupti. Magnam harum, ipsum voluptates ratione voluptas rem ducimus
           similique.
         </p>
-        <button className="bg-black p-2 text-white rounded-md mt-2 hover:scale-95 transition ease-in duration-200"><Link to="/Rooms">Book Now</Link></button>
+        <button className="bg-black p-2 text-white rounded-md mt-2 hover:scale-95 transition ease-in duration-200"><a href="/Rooms">Book Now</a></button>
       </div>
     </div>
   );

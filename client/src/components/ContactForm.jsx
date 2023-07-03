@@ -18,9 +18,9 @@ const ContactForm = () => {
 
   return (
     <>
-      <div className="antialiased  bg-no-repeat bg-cover ">
-        <div className="flex w-full min-h-screen justify-center items-center">
-          <div className=" flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 bg-gradient-to-r from-[#434343] to-[#000000] bg-opacity-70 w-full max-w-4xl p-8 rounded-xl  text-white sm:p-12 overflow-hidden shadow-xl shadow-zinc-700">
+      <div className="antialiased  bg-no-repeat bg-cover bg-gradient-to-r from-[#DCD6F7] via-[#BBE1FA]  to-[#BBDED6]" id="Contact">
+        <div className="flex flex-col w-full min-h-screen justify-center items-center ">
+          <div className=" flex flex-col md:flex-row md:space-x-6 md:space-y-0 mt-6 space-y-6 bg-gradient-to-r from-[#434343] to-[#000000] bg-opacity-70 w-full max-w-4xl p-8 rounded-xl  text-white sm:p-12 overflow-hidden shadow-xl shadow-zinc-700">
             <div className="flex flex-col space-y-8 justify-between">
               <div>
                 <h1 className="font-bold text-4xl tracking-wide">Contact Us</h1>
@@ -130,20 +130,20 @@ const ContactForm = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div
-          className="flex flex-col items-center justify-center p-8 rounded-xl shadow-lg "
-          id="maps"
-        >
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7341.141332915838!2d76.86034987329806!3d23.07619663378666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1683455187108!5m2!1sen!2sin"
-            width="90%"
-            height="450"
-            style={{ border: 0 }}
-            allowFullScreen=""
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
+
+          <div
+            className="flex justify-center items-center w-[90%] m-8 p-2 bg-gray-400 bg-opacity-10 shadow-md shadow-gray-500  rounded-lg "
+            id="maps"
+          >
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7341.141332915838!2d76.86034987329806!3d23.07619663378666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1683455187108!5m2!1sen!2sin"
+              style={{ width: '100%' }}
+              height="450"
+
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
         </div>
       </div>
     </>

@@ -2,13 +2,13 @@ import React from "react";
 
 import aboutImg from "../assets/AboutUs/img.jpg";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
-const About = ({data:{description}}) => {
+const About = ({ data: { description } }) => {
   return (
     <div
-      className="mx-auto  p-8 "
-      id="about"
+      className="mx-auto  p-8 bg-gradient-to-r from-[#DCD6F7] via-[#BBE1FA]  to-[#BBDED6]"
+      id="About"
     >
       <h1 className="flex justify-center items-center  text-gray-900 font-bold mb-[2.25rem] text-5xl font-serif ">
         <span className="border-b-4 mt-2 border-black border-double">
@@ -29,15 +29,15 @@ const About = ({data:{description}}) => {
             </span>
           </h2>
           <p className="text-gray-900 text-lg font-paraFont leading-8">
-           {description}
+            {description}
           </p>
-          <Link to='/AboutUs'>
-          <p className="mt-3 text-xl w-fit hover:border-b-2 hover:border-blue-500 hover:w-fit hover:text-blue-500 hover:cursor-pointer">
-           Read More <ArrowRightAltIcon className="hover:text-blue-500" />
-          </p>
-          </Link>
+          <a href='/AboutUs'>
+            <p className="mt-3 text-xl w-fit hover:border-b-2 hover:border-blue-500 hover:w-fit hover:text-blue-500 hover:cursor-pointer">
+              Read More <ArrowRightAltIcon className="hover:text-blue-500" />
+            </p>
+          </a>
 
-          
+
         </div>
       </div>
     </div>

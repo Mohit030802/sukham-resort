@@ -4,20 +4,14 @@ import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
-    const handleClickScroll = () => {
-        const element = document.getElementById('about');
-        if (element) {
-
-            element.scrollIntoView({ behavior: 'smooth' });
-        }
-    };
+    
     const [nav, setNav] = useState(false)
     const [navbar, setNavbar] = useState(false);
     const handleClick = () => setNav(!nav)
 
     return (
       <>
-            <nav className="w-full bg-gradient-to-r from-[#8294C4] via-[#DBDFEA] to-[#D5B4B4] shadow-xl shadow-slate-500">
+            <nav className="w-full bg-gradient-to-r from-[#DCD6F7] via-[#BBE1FA]  to-[#BBDED6] shadow-md  shadow-slate-500" id='Home'>
                 <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                     <div>
                         <div className="flex items-center justify-between py-3 md:py-5 md:block">

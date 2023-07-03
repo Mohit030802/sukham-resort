@@ -7,11 +7,12 @@ import hotel from '../assets/features/hotel.png'
 import tent from '../assets/features/tent.png'
 import parking from '../assets/features/parking.png'
 
+
 const HotelFeatures = () => {
   return (
     
     <>
-     <div className='bg-gray-300 w-full  text-gray-900 p-6'>
+     <div className='bg-gradient-to-r from-[#DCD6F7] via-[#BBE1FA]  to-[#BBDED6] w-full  text-gray-900 p-6'>
               <p className='text-4xl font-bold md:mb-4 mb-8 flex justify-center items-center'><span className='text-6xl border-b-4 border-black w-fit border-double'>Resort Features</span></p>
               <div className=' mx-auto p-4 flex flex-col justify-center w-full h-full '>
                  

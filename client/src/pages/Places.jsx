@@ -17,7 +17,7 @@ const Places = () => {
   return (
 
     <div
-      className="mx-auto   p-8 "
+      className="mx-auto   p-8 bg-gradient-to-r from-[#DCD6F7] via-[#BBE1FA]  to-[#BBDED6]"
       id="about"
     >
       <h1 className="flex justify-center items-center  text-gray-900 font-bold mb-[2.25rem] text-5xl font-serif ">

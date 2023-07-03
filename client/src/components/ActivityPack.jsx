@@ -3,18 +3,16 @@ import CheckIcon from '@mui/icons-material/Check';
 const ActivityPack = () => {
   return (
     <div>
-      <div name='pricing' className='w-full text-white  bg-gradient-to-r from-[#FFE2E2] via-[#F6F6F6] to-[#A6E3E9]'>
-            <div className='absolute'>
-
-            </div>
+      <div name='pricing' className='w-full text-white  bg-gradient-to-r from-[#DCD6F7] via-[#BBE1FA]  to-[#BBDED6]'>
+            
             <div className='max-w-[1240px] mx-auto py-12'>
                 <div className='text-center py-8 text-slate-300'>
                     <h2 className='sm:text-7xl text-5xl uppercase text-[#FFD700] font-bold font-serif'>Pricing</h2>
                     
                    
                 </div>
-                <div className='grid md:grid-cols-3 '>
-                    <div className='bg-white p-8 m-4 rounded-xl shadow-2xl text-slate-900 relative hover:scale-110 ease-out delay-150 duration-200'>
+                <div className='grid md:grid-cols-3 gap-8'>
+                    <div className='bg-white p-8 m-4 rounded-xl shadow-2xl text-slate-900 relative hover:scale-110 transition ease-in duration-200'>
                         <span className='uppercase px-3 py-1 bg-indigo-200 text-indigo-900 rounded-xl text-sm'>1 Day</span>
                         <div>
                             <p className='text-6xl font-bold py-4 flex'>$49</p>
@@ -29,7 +27,7 @@ const ActivityPack = () => {
                             <button className='w-full py-4 my-4 bg-black text-white rounded-md text-lg'>Buy Now</button>
                         </div>
                     </div>
-                    <div className='bg-white p-8 m-4 rounded-xl shadow-2xl text-slate-900 relative hover:scale-110 ease-in-out delay-150 duration-200'>
+                    <div className='bg-white p-8 m-4 rounded-xl shadow-2xl text-slate-900 relative hover:scale-110 transition ease-in duration-200'>
                         <span className='uppercase px-5 py-3 bg-indigo-200 text-indigo-900 rounded-xl text-md'>3 Days</span>
                         <div>
                             <p className='text-6xl font-bold py-4 flex'>$149</p>
@@ -44,7 +42,7 @@ const ActivityPack = () => {
                             <button className='w-full py-4 my-4 bg-black text-white rounded-md text-lg'>Buy Now</button>
                         </div>
                     </div>
-                    <div className='bg-white p-8 m-4 rounded-xl shadow-2xl text-slate-900 relative hover:scale-110 ease-in-out delay-150 duration-200'>
+                    <div className='bg-white p-8 m-4 rounded-xl shadow-2xl text-slate-900 relative hover:scale-110 transition ease-in duration-200'>
                         <span className='uppercase px-3 py-1 bg-indigo-200 text-indigo-900 rounded-xl text-sm'>2 Days</span>
                         <div>
                             <p className='text-6xl font-bold py-4 flex'>$100</p>

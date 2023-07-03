@@ -6,11 +6,16 @@ import Room from '../components/Room'
 import Slider from '../components/Slider'
 import { ActivitiesData } from '../utils/ActivitiesData'
 import {data} from '../utils/data'
-import ActivityPack from '../components/ActivityPack'
-import About from '../components/About'
+
+import ActivityPack from  '../components/ActivityPack'
+
 
 import AboutComp from '../components/AboutComp'
+
+
+
 import Testimonials from '../components/Testimonials'
+import TestimonialComp from '../components/TestimonialComp'
 
 const Home = () => {
   return (
@@ -20,8 +25,9 @@ const Home = () => {
 
       <Room />
       <NearbyData data={data} />
-      <HotelFeatures />
-      <Testimonials/>
+      <HotelFeatures/>
+      <TestimonialComp />
+      {/* <Testimonials/> */}
       <Activities activity={ActivitiesData} />
       <ActivityPack/>
     </div>
