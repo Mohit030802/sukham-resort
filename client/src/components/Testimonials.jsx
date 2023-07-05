@@ -15,8 +15,8 @@ const Testimonials = ({ name, reviews,id }) => {
           <div className="flex justify-center items-center max-w-full mt-4 p-4">
     
               <div className="flex justify-center items-start mt-4">
-                <div className="flex w-[50%] justify-center items-center m-2 p-2  mt-4 hover:shadow-lg hover:shadow-slate-600 transition hover:scale-90  ease-linear">
-                  <div className="flex flex-col bg-white border-2 rounded-md text-center p-2 justify-center items-center hover:outline outline-offset-4 outline-4">
+                <div className="flex w-[50%] justify-center items-center m-2 p-2  mt-4 ">
+                  <div className="flex flex-col bg-white border-2 rounded-md text-center p-2 justify-center items-center ">
                     <img
                       className="w-40 h-36 rounded-full"
                       src={profilePic}

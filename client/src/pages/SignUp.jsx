@@ -19,14 +19,12 @@ const SignUp = () => {
                   First Name
                 </label>
                 <input
-                  class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                  class="appearance-none block w-full bg-gray-200 text-gray-700 border  rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
                   id="grid-first-name"
                   type="text"
-                  placeholder="Jane"
+                  placeholder="Enter Your Name"
                 />
-                <p class="text-red-500 text-xs italic">
-                  Please fill out this field.
-                </p>
+                
               </div>
               <div class="w-full md:w-1/2 px-3">
                 <label
@@ -87,7 +85,7 @@ const SignUp = () => {
               </div>
              
             </div>
-            <div class="flex flex-wrap -mx-3 mb-6">
+            <div class="flex flex-wrap -mx-3 mb-6 mt-6">
               <div class="w-full px-3">
                 <label
                   class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
@@ -121,6 +119,10 @@ const SignUp = () => {
                   Make it as long and as crazy as you'd like
                 </p>
               </div>
+            </div>
+            <div className="flex justify-center items-center">
+
+            <button className="flex justify-center items-center bg-black text-white p-2 m-2 w-1/2 rounded-md text-center">Submit</button>
             </div>
           </form>
         </div>

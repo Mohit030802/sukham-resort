@@ -55,7 +55,7 @@ const Footer = () => {
 
                 <TwitterIcon />
               </a>
-              <a href="">
+              <a href="https://www.youtube.com/channel/UCI35BqLxYR60Sb63Tm-Ur_w" target="_blank">
                 <YouTubeIcon />
               </a>
             </div>
